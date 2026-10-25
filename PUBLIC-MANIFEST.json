@@ -504,8 +504,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4755,
-      "sha256": "8bcba5e392bd4dc0bcc432db4927dad27f814115db4c62859feda600960c826f"
+      "bytes": 5401,
+      "sha256": "02f884969ea50deccd00a89f58367082190e18c743db160e2e15410475967292"
     },
     {
       "path": "scripts/setup-neko-upstream.ps1",

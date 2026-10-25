@@ -6,8 +6,19 @@ AI女友是一个 Windows 桌面陪伴项目，包含本地网页界面、文本
 
 仓库中的源码、演示图片和 Word 使用说明可以直接查看。完整的 Windows 可运行包放在
 GitHub Releases 中，因为它包含隔离 Python 运行时和依赖，体积超过普通仓库适合直接
-存放的范围。下载 Release 中的 `AI女友-Windows-20261025-r2.zip` 后，解压并运行包内的
+存放的范围。下载 Release 中的 `ai-girlfriend-windows-v0.1.0.zip` 后，解压并运行包内的
 `安装入口.cmd` 即可安装；安装后可在离线模拟模式下先体验界面，再配置自己的模型服务。
+
+## 安装入口
+
+- [下载 Windows 安装包（约 921 MB）](https://github.com/hxhd2270-max/ai-girlfriend/releases/download/v0.1.0/ai-girlfriend-windows-v0.1.0.zip)
+- [下载 Word 使用说明](https://github.com/hxhd2270-max/ai-girlfriend/releases/download/v0.1.0/ai-girlfriend-user-guide.docx)
+- [完整发布页与演示视频](https://github.com/hxhd2270-max/ai-girlfriend/releases/tag/v0.1.0)
+
+安装包 SHA-256：`2c47547ad4d69a25895db72263286b8ce9ebbee0f2541ac2dff82f7acb098aaa`。
+当前已核对包内文件完整性；尚未完成干净 Windows 用户环境的安装验证。
+
+![AI女友角色预览](demo/ai-girlfriend-preview.png)
 
 公开候选明确排除 API Key、对话记录、记忆数据库、本机日志、浏览器配置、开发台账和
 用户本地配置。真实模型调用需要使用者自己的 API 服务和密钥，不包含项目作者的密钥。
