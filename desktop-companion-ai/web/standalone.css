@@ -1,0 +1,36 @@
+:root{color-scheme:dark}
+.desktop-wallpaper .workspace{display:block}
+.desktop-wallpaper #stage{position:absolute;inset:0;--fit:cover}
+.desktop-wallpaper main,.desktop-wallpaper .now-playing{display:none}
+#desktop-chat-launcher{position:fixed;right:18px;bottom:70px;width:160px;height:52px;z-index:30;border-radius:26px;background:#1b192ac9;border-color:#cbb7ff70;box-shadow:0 3px 18px #0005}
+#desktop-subtitle{position:fixed;left:20%;right:20%;bottom:96px;z-index:20;text-align:center;font-size:20px;line-height:1.7;color:#fff;text-shadow:0 1px 5px #000,0 1px 8px #000;pointer-events:none}
+body{height:100vh;overflow:hidden}
+.workspace{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(360px,1fr);height:100%}
+#stage{position:relative;min-width:0;background:#111;overflow:hidden;--fit:contain}
+.now-playing{position:absolute;bottom:12px;left:18px;z-index:6;color:#ddd;text-shadow:0 1px 4px #000}
+#stage-status{padding:28px;color:#cbb7ff}
+body.has-action-player #stage-status{visibility:hidden}
+main{width:100%;height:100%;min-height:0;max-width:none;margin:0;padding:24px;overflow:auto;display:flex;flex-direction:column}
+header{margin-bottom:12px}h1{font-size:26px}header p{margin:5px 0}
+.toolbar{font-size:13px;gap:10px!important;flex-shrink:0}
+.toolbar button{font-size:12px;padding:7px 10px}
+.volume{display:flex;align-items:center;gap:6px}.volume input{width:80px}
+#history{flex:1;min-height:64px;max-height:none}
+#error:empty{display:none}#error,#subtitle{margin:4px 0}
+#composer{margin-top:4px;flex-shrink:0}#voice-status{margin:6px 0}
+textarea{resize:none}footer{margin-top:12px;padding:10px 0}
+.hint{line-height:1.5}.turn{padding:12px;margin-bottom:12px}
+#clear-confirm{padding:10px;background:#262333}
+@media(max-width:900px),(max-height:700px){
+  main{padding:12px 16px}header,footer{display:none}
+  .toolbar{padding:8px 0;gap:8px!important}.turn{margin-bottom:8px}
+  #composer>.hint{display:none}#subtitle:empty{min-height:0}
+  textarea{height:76px;padding:10px}#usage{margin:6px 0}
+}
+@media(max-width:720px){
+  .workspace{grid-template-columns:1fr;grid-template-rows:28vh minmax(0,1fr)}
+  main{padding:8px 14px}.toolbar{font-size:11px;padding:6px 0;gap:6px!important}
+  .toolbar button{padding:5px 8px}.volume input{width:60px}
+  #voice-status{font-size:11px;margin:3px 0}textarea{height:64px;margin:4px 0}
+  #composer>label{font-size:14px}.actions button{padding:6px 12px}
+}

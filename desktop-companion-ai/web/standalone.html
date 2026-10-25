@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>知夏 · 桌面陪伴</title><link rel="stylesheet" href="/web/style.css"><link rel="stylesheet" href="/web/standalone.css"><link rel="stylesheet" href="/wallpaper/action-player.css"></head>
+<body><div class="workspace"><section id="stage" aria-label="角色画面"><p id="stage-status" role="status">正在加载角色…</p><div class="now-playing"><p data-action="正在准备">角色动作</p></div></section>
+<main><header><p class="eyebrow">DESKTOP COMPANION</p><h1>知夏</h1><p id="mode-info">正在确认连接模式…</p></header>
+<section class="toolbar"><span id="status" role="status">正在连接…</span><a href="/admin" target="_blank" rel="noopener">人物与声音设置</a><button id="clear" type="button">清除页面记录</button><button id="mute" type="button" aria-pressed="false">静音</button><label class="volume">音量 <input id="volume" type="range" min="0" max="1" step="0.05" value="1"></label></section>
+<div id="clear-confirm" hidden>清除这段交流的全部页面记录？<button id="clear-yes" type="button">确认清除</button><button id="clear-no" type="button">保留记录</button></div>
+<p id="usage" class="hint" role="status">正在读取今日用量…</p><section id="history" aria-label="交流记录"></section><p id="error" role="alert"></p><p id="subtitle" aria-live="polite"></p>
+<p id="voice-status" class="hint" role="status">点击语音对话后才会打开麦克风。</p><form id="composer"><label for="message">想和我说什么？</label><textarea id="message" maxlength="2000" rows="3" placeholder="慢慢说，我在听。"></textarea><div class="actions"><button id="voice" type="button" disabled aria-pressed="false">语音对话</button><button id="stop" type="button">停止</button><button id="send" type="submit" disabled>发送</button></div><p class="hint">Enter 发送 · Shift + Enter 换行 · 输入法选词时不会发送。最小化或锁屏后暂停，回来后不会重播。</p></form>
+<audio id="player" preload="auto"></audio><footer>对话记录保存在此电脑；云模式的回复与语音需要联网。</footer></main></div><script type="module" src="/web/standalone.js"></script></body></html>

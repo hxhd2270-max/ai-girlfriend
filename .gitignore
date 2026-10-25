@@ -1,0 +1,49 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/config/provider-key.txt
+**/config/provider-key.dpapi
+**/config/provider-routes.dpapi
+
+# Private user data and runtime state
+**/data/
+**/evidence/
+**/backups/
+**/releases/
+**/video-production/
+**/integration-runtime/
+**/integration-local-appdata/
+**/local-appdata/
+**/roaming-appdata/
+**/runtime-profile/
+**/logs/
+**/cache/
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db
+*.db-*
+*.log
+*-processes.json
+
+# Dependencies and build output
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+**/bin/
+**/obj/
+**/dependencies/
+runtime/
+dist/
+build/
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Media requires a separate redistribution decision
+**/assets/companion/actions/

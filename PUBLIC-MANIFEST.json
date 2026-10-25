@@ -1,0 +1,526 @@
+{
+  "schema": 1,
+  "source": "explicit-allowlist",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 192,
+      "sha256": "4f8c45f31d550d5557232c4805c773c102faadcfda333e0736edbb166d6a88ae"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 718,
+      "sha256": "c23c0ff7758c5676e5dd37d302df058cef133f142689d1f3cffab31bad3a6359"
+    },
+    {
+      "path": "demo/ai-girlfriend-preview-2.png",
+      "bytes": 340018,
+      "sha256": "494453bfe3af3edf6293526fe8d4764e5eb2b3c2c28b3e63d3404cb6aa77a455"
+    },
+    {
+      "path": "demo/ai-girlfriend-preview.png",
+      "bytes": 365897,
+      "sha256": "d4eb1438428b5b84eb4b0ce72510496338ba446902a6c0dbd1e859aa5e819a42"
+    },
+    {
+      "path": "desktop-companion-ai/assets/companion/actions/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "desktop-companion-ai/config/usage-limits.json",
+      "bytes": 78,
+      "sha256": "7557508d23833bf7fe69d134c9c95d052becf7ec9e23b822bd2336dd8096891e"
+    },
+    {
+      "path": "desktop-companion-ai/desktop-host/app.manifest",
+      "bytes": 671,
+      "sha256": "6e43521f94b957e54c88d41afdcd397423cbff57bbf8122b25b16fff084650e9"
+    },
+    {
+      "path": "desktop-companion-ai/desktop-host/build.ps1",
+      "bytes": 1779,
+      "sha256": "a357eb5db10d350dca778074594d39a142a85d0c4ae267ed7957e0c1c6426156"
+    },
+    {
+      "path": "desktop-companion-ai/desktop-host/DesktopChat.cs",
+      "bytes": 19455,
+      "sha256": "6e7e27bb9694454446b50ea60e0130c9d29200d754c8c986304d8ad0de5e3064"
+    },
+    {
+      "path": "desktop-companion-ai/desktop-host/DesktopMode.cs",
+      "bytes": 14667,
+      "sha256": "65dcee9c043e991b25b47029c834187c41ec4e624af04fb29354339f7c991f20"
+    },
+    {
+      "path": "desktop-companion-ai/desktop-host/DesktopSession.cs",
+      "bytes": 11877,
+      "sha256": "a7bc6612dc22e408343726602d9921d876d258bc5a4e1b8dab8f62be355981e3"
+    },
+    {
+      "path": "desktop-companion-ai/desktop-host/Host.cs",
+      "bytes": 16038,
+      "sha256": "7257f3afb01954c215174eaa9c8d2a851eca46cd9624d0a58b250cd88cd7d4b6"
+    },
+    {
+      "path": "desktop-companion-ai/desktop-host/README.md",
+      "bytes": 5518,
+      "sha256": "bb8d4bb693552a2353849872c4f4a0b08b20259e3e31336e1c5e38b9e227c745"
+    },
+    {
+      "path": "desktop-companion-ai/requirements.txt",
+      "bytes": 66,
+      "sha256": "22fb1b4412122c0f41c4cb32f0195fad05a51c41234d5608addf8ef5f90303ce"
+    },
+    {
+      "path": "desktop-companion-ai/server/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "desktop-companion-ai/server/admin.py",
+      "bytes": 16909,
+      "sha256": "d2da5cfe086555527016b4e41f79bcfd794e8a5430d0eb7f41e093a9de3c4b3f"
+    },
+    {
+      "path": "desktop-companion-ai/server/app.py",
+      "bytes": 47017,
+      "sha256": "a02408e1419c6a2a090d1979b9ab9a76343b19f373471655816b411bb44a9dff"
+    },
+    {
+      "path": "desktop-companion-ai/server/audition.py",
+      "bytes": 2043,
+      "sha256": "6fcc75789c97e0aee636b6c5f807e8211ae24d0de8c980947d3cb84635cd22ca"
+    },
+    {
+      "path": "desktop-companion-ai/server/cloud.py",
+      "bytes": 25237,
+      "sha256": "cb7043db0439b7a226febb66ea75a8686a0900b167304c9c817b453970874301"
+    },
+    {
+      "path": "desktop-companion-ai/server/native_input.py",
+      "bytes": 5182,
+      "sha256": "0d55465f223c281bd577e918d4405c7280cf1940dc768410809133acbb10102d"
+    },
+    {
+      "path": "desktop-companion-ai/server/neko.py",
+      "bytes": 5799,
+      "sha256": "8cfb5b12e28a8eb08e27c19a10a36e3f7bc465098262991080ba49cec8aa9ac7"
+    },
+    {
+      "path": "desktop-companion-ai/server/persona.py",
+      "bytes": 2795,
+      "sha256": "be2621bfbaf6ae84a391c23cbf2c9becfc9070d36037f2a0a03dd5fffb0d0fd4"
+    },
+    {
+      "path": "desktop-companion-ai/server/provider_audio.py",
+      "bytes": 6596,
+      "sha256": "be194b4a99ed593d09df712a2ed1099cf9a3be480662e815a6ebf18e4d7e113b"
+    },
+    {
+      "path": "desktop-companion-ai/server/provider_config.py",
+      "bytes": 6400,
+      "sha256": "c542429fb9827d723c16d65da63393f0bec2a2ffb3481d037690c427edc58d3c"
+    },
+    {
+      "path": "desktop-companion-ai/server/provider_routes.py",
+      "bytes": 13756,
+      "sha256": "bf291608bd961140549dd0837354384d4157ac224f01f5579a5ee512f35d1e04"
+    },
+    {
+      "path": "desktop-companion-ai/server/standalone.py",
+      "bytes": 1203,
+      "sha256": "1dc77c8deca53db0e7fada8980076cae31981961fc98783bb130709e1c3d04bd"
+    },
+    {
+      "path": "desktop-companion-ai/server/usage.py",
+      "bytes": 7972,
+      "sha256": "1e2b35346e5d23f6cf04abf74385cad4235504906a57d4d095620260d7fdae6b"
+    },
+    {
+      "path": "desktop-companion-ai/server/voice.py",
+      "bytes": 12943,
+      "sha256": "bb2dcc84dc1303bf1ed42af7124fb517702f3f255c6af20339f389a87cb3b1b0"
+    },
+    {
+      "path": "desktop-companion-ai/server/wallpaper.py",
+      "bytes": 1875,
+      "sha256": "db1d0b4df703aaa2a2df4010f256a07068bf02737179775fad3e8e5c3a01c6b2"
+    },
+    {
+      "path": "desktop-companion-ai/server/wallpaper_assets.py",
+      "bytes": 3901,
+      "sha256": "fbf6588e4b279b1b4df2277c3618cc710fdede373737dbe696e98a078b9a2aa0"
+    },
+    {
+      "path": "desktop-companion-ai/start-cloud.cmd",
+      "bytes": 56,
+      "sha256": "0cbf8432c85239e70e911557c66b03dd6d0169f3cc5903f2998e24e76524d6c0"
+    },
+    {
+      "path": "desktop-companion-ai/start-desktop-simulation.cmd",
+      "bytes": 90,
+      "sha256": "9a3114d303cf1ea22161693d031d15b5b7bf170ba79ea023fcefb0696c6d1d4c"
+    },
+    {
+      "path": "desktop-companion-ai/start-desktop.cmd",
+      "bytes": 77,
+      "sha256": "b7646c6265e6c7b4fe7d6ef2e15c227289472f3fb5c7ab1a609f71adae72d2d8"
+    },
+    {
+      "path": "desktop-companion-ai/start-neko.cmd",
+      "bytes": 203,
+      "sha256": "623f92b11b05e420d10ae0c7cd94bfa1649996dd96d2c320baedefd045683975"
+    },
+    {
+      "path": "desktop-companion-ai/start-simulation.cmd",
+      "bytes": 69,
+      "sha256": "fd2034e7e27036ebdf273d7f075bf09e2cad8d45580dc99f2f4cca19b716fb7e"
+    },
+    {
+      "path": "desktop-companion-ai/start-standalone-simulation.cmd",
+      "bytes": 80,
+      "sha256": "58ff252d71da45080556a5859381254e028b20e1c46f2e5d7f56608de915a652"
+    },
+    {
+      "path": "desktop-companion-ai/start-standalone.cmd",
+      "bytes": 768,
+      "sha256": "81822de768e64212fa019e1e72c9463a9f0a7e6a0132a2a17d3325fdd28e5a8a"
+    },
+    {
+      "path": "desktop-companion-ai/start.cmd",
+      "bytes": 456,
+      "sha256": "580425ad82561724de4ddecbeceff7e6f674d61e221b299986d1d2170c7ad762"
+    },
+    {
+      "path": "desktop-companion-ai/stop-neko.cmd",
+      "bytes": 703,
+      "sha256": "d0a95b93772edafee09bf6593091762fc645f42dc0f97713efc08dfc1cad0b38"
+    },
+    {
+      "path": "desktop-companion-ai/tests/action-player.test.mjs",
+      "bytes": 15631,
+      "sha256": "e0ee895aede3bf343e5f40f4556b703310d585e325222158b98b4da3b0a7873c"
+    },
+    {
+      "path": "desktop-companion-ai/tests/app.test.mjs",
+      "bytes": 10456,
+      "sha256": "3e791392c866a4d82dc8977b2178aa428395b40e3c1e312fc76edc3191eca786"
+    },
+    {
+      "path": "desktop-companion-ai/tests/player.test.mjs",
+      "bytes": 4770,
+      "sha256": "d1b8a28e71b2cda3621a5c333dd6cb2490aa1ac6454753fd28c7f50cea249245"
+    },
+    {
+      "path": "desktop-companion-ai/tests/speech-motion.test.mjs",
+      "bytes": 2713,
+      "sha256": "e856222b428f4d32292da63665518c7c0a341bfd4d636968c1c754f22b93d863"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_admin.py",
+      "bytes": 4664,
+      "sha256": "6e9fd52408a9418a2793f76ee477ec93c195402a76da824888f3bbf0cc3493dc"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_audition.py",
+      "bytes": 14305,
+      "sha256": "0ceadfda02a898b78724e926b33f6f45500e328b860cbb975369b42c6e628d6a"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_cloud.py",
+      "bytes": 19225,
+      "sha256": "ec2bb90ec3a1b4b96e47dc92106536b522e74580f5f7e8517b4191cd8ca76386"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_first_run.py",
+      "bytes": 5732,
+      "sha256": "ed28179ae27cd211a365057cc0f072252c3af28bfb6dea329ef63af2273770b9"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_native_input.py",
+      "bytes": 4277,
+      "sha256": "27339f05a2d4202ebd9e90fb8ea3ba10abcb50856de26bd11779ce814c29b0bd"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_neko.py",
+      "bytes": 3954,
+      "sha256": "16b96310501017436f9c8342fa8e2abd963f94d6f873fd24cc21d9fdd6a10dfc"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_provider_config.py",
+      "bytes": 6979,
+      "sha256": "e2b24562cd353290b3b919d05d154c316900fbcc264cfc438b23049d1a6b5be0"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_provider_routes.py",
+      "bytes": 13199,
+      "sha256": "ec5f5eecac699ec3fb7bb10ce20efcf1436272038022782abb44579678a3b725"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_server.py",
+      "bytes": 13435,
+      "sha256": "cfafbbc128360eb4f3450913ab01a74d4b40d2807bfd0c66a994a4a4f756966a"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_shared_chat.py",
+      "bytes": 11273,
+      "sha256": "bc81d3292e4b827682f8efd68103a01da71cb934296c70d9d9fab39d11674a37"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_standalone.py",
+      "bytes": 5326,
+      "sha256": "f11f54d4c6dcb3b52d15b1264db49639615ab8f154954c5924bf42c509579da4"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_start_plan.py",
+      "bytes": 17850,
+      "sha256": "7c7f6040544f6d7bbd22be9eebcc182cf0c18a4cd980895d2e5885e15b75c80e"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_start_standalone.py",
+      "bytes": 4507,
+      "sha256": "ea4336a26f202a4b41eddd6cedead17514db6cc5e783e34c542282c2e2530673"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_streaming_tts.py",
+      "bytes": 5319,
+      "sha256": "e03d35d2f1e82f9c9b2ba54581b0b8da458539f11d774f3de27f433386df78f4"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_usage.py",
+      "bytes": 13844,
+      "sha256": "41b98e6f6aad269c0659e08f607de275f0ccb7697e751f3bb1837669dbc448c7"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_voice.py",
+      "bytes": 8021,
+      "sha256": "bf1fbecca0676cf57830d65f1309e4ea13a0f2b660c2276091bc1dc627636693"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_voice_routes.py",
+      "bytes": 6733,
+      "sha256": "254ec007782a8541792e033ce85ecd55cf8f7421998f89f8f8d01cd9a64f3931"
+    },
+    {
+      "path": "desktop-companion-ai/tests/test_wallpaper.py",
+      "bytes": 6401,
+      "sha256": "3290a8e95c016aaaf3c189bb0ff1d0331654303fed23c034c8ac3d61cb59bc83"
+    },
+    {
+      "path": "desktop-companion-ai/tools/audit_public_tree.py",
+      "bytes": 5157,
+      "sha256": "6d7d7de4ef0cb05f97766ecf36638cc8307d592823c570ee6849b519a0c12af3"
+    },
+    {
+      "path": "desktop-companion-ai/tools/build_public_source.py",
+      "bytes": 6084,
+      "sha256": "3ff1716faaf15db286c21edf5e4cf4f8b79d6b010e1d59bba50012f42ef39414"
+    },
+    {
+      "path": "desktop-companion-ai/tools/first_run.py",
+      "bytes": 10375,
+      "sha256": "3f9c267fcba07a07a0c1d1e402137cf4c342fb93dd433177b3b01cb4fefdf504"
+    },
+    {
+      "path": "desktop-companion-ai/tools/launch_windows.cmd",
+      "bytes": 1188,
+      "sha256": "a0c3cc10b7b4f396850f1c2efde43b49bd5942b63d6f25790218e8bd2ca9fb92"
+    },
+    {
+      "path": "desktop-companion-ai/tools/native_chat_input.py",
+      "bytes": 11997,
+      "sha256": "ce371229fd6b335d837f7fa20693cc6117d570b22c30f17d0c1ef658a0cf1a42"
+    },
+    {
+      "path": "desktop-companion-ai/tools/portable_runtime.py",
+      "bytes": 5801,
+      "sha256": "07b49d777f8ed0bcfa7d349c5f78d3229d756ab9cb7c6f289ac54c82a457a0ac"
+    },
+    {
+      "path": "desktop-companion-ai/tools/start_cloud.py",
+      "bytes": 1176,
+      "sha256": "d380acba381740c42fb559a89806d22ca710963a0599c0bf4fd3b616833e6f4f"
+    },
+    {
+      "path": "desktop-companion-ai/tools/start_neko.py",
+      "bytes": 6645,
+      "sha256": "ee4e745e847f225f075be597326bb1bdea9c19b15f18939635a6826e9323267e"
+    },
+    {
+      "path": "desktop-companion-ai/tools/start_plan.py",
+      "bytes": 9062,
+      "sha256": "6152d5616c8776023b2160652bc293ec5539f9b8ff2a77a3ccb1772620f60b7e"
+    },
+    {
+      "path": "desktop-companion-ai/tools/start_standalone.py",
+      "bytes": 5874,
+      "sha256": "88a50284ed01229abf5332fc018651f2c341e78673bec1156824dd3a77e65d0d"
+    },
+    {
+      "path": "desktop-companion-ai/wallpaper/action-player.css",
+      "bytes": 608,
+      "sha256": "4b1ca8c03816bbafdeadef954d0556c4253225d4d87e3e5afed785fed55dbbf2"
+    },
+    {
+      "path": "desktop-companion-ai/wallpaper/action-player.js",
+      "bytes": 19236,
+      "sha256": "0f594fd17fbb8b39f32efdf92f4dec5b559430fb8de4f4bbb50cb4af1aff9654"
+    },
+    {
+      "path": "desktop-companion-ai/web/admin.css",
+      "bytes": 18146,
+      "sha256": "a9fd453f5f0b4db13de3ecf5511830f0dcc70f64d353169d42e0ecec2d444ce9"
+    },
+    {
+      "path": "desktop-companion-ai/web/admin.html",
+      "bytes": 7687,
+      "sha256": "0dcadbe6b58e35980f694552997c98d50d6e1ca9ffb02d689978d39065d0825b"
+    },
+    {
+      "path": "desktop-companion-ai/web/admin.js",
+      "bytes": 14476,
+      "sha256": "5c107e6b473c0a1ef543653b62241f18d9242e4845d72eb6f2995a59e6514419"
+    },
+    {
+      "path": "desktop-companion-ai/web/app.js",
+      "bytes": 16054,
+      "sha256": "c24391bc310623033b2b612c41fb9ef0ee0f7b1516a1c28affb35a0d9bcb51b1"
+    },
+    {
+      "path": "desktop-companion-ai/web/audition.html",
+      "bytes": 1204,
+      "sha256": "f3416534cb0addcb7d9402a0673e3ba1e53d64b81d0e7fe19d9b8211c05ad23e"
+    },
+    {
+      "path": "desktop-companion-ai/web/audition.js",
+      "bytes": 2905,
+      "sha256": "28733b24203b4b7cf260f6785e32e6600783e7168daa9c19f834b3213a41325c"
+    },
+    {
+      "path": "desktop-companion-ai/web/index.html",
+      "bytes": 3084,
+      "sha256": "ed199894fc59c212212909a9fb8de6839805c8399cc02243b9f6b25f9374badb"
+    },
+    {
+      "path": "desktop-companion-ai/web/pair.js",
+      "bytes": 2997,
+      "sha256": "1e2125535f7bce86177bd7f33f945f73f6532c27086a5bc7dddec0ad35cc2d36"
+    },
+    {
+      "path": "desktop-companion-ai/web/player.js",
+      "bytes": 6571,
+      "sha256": "ab75bb111d7527bda54a875577a5fb289afd9372cb8fda1ad9d20525bb40b5d6"
+    },
+    {
+      "path": "desktop-companion-ai/web/provider-settings.js",
+      "bytes": 9108,
+      "sha256": "78162a6308e4c41f88b2f85ebb148f98b3b3f3631184ad523e88f6716918af8e"
+    },
+    {
+      "path": "desktop-companion-ai/web/standalone.css",
+      "bytes": 2399,
+      "sha256": "0c8ecffb089d114f02c519a9d80987e2d25964ba7632331cfddc0456e5e40d34"
+    },
+    {
+      "path": "desktop-companion-ai/web/standalone.html",
+      "bytes": 2328,
+      "sha256": "ba74290f9b7ccaf3e37a7e85089ce2e808ee09a755bd3fce97ce8b292c07b6d5"
+    },
+    {
+      "path": "desktop-companion-ai/web/standalone.js",
+      "bytes": 4751,
+      "sha256": "ed7833db16d04d077067d17bbbf806fa1c4d96a1a9e35133dbc334044a4c43b9"
+    },
+    {
+      "path": "desktop-companion-ai/web/style.css",
+      "bytes": 1827,
+      "sha256": "409897049cab60834af92a9d073dad755a9a8d9dcec22f4d7b9febe9aecb0f5a"
+    },
+    {
+      "path": "docs/AI女友使用说明.docx",
+      "bytes": 405153,
+      "sha256": "e3203191c59be63adcd5fa528b775e8931932753c01daf1747bd3fd827c3f797"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1084,
+      "sha256": "76e199acd50f48df6ee9581493cee1caf4ae6656fc21520e85881c2625295143"
+    },
+    {
+      "path": "neko-lab/gateway.py",
+      "bytes": 13992,
+      "sha256": "61f5e2d3f7591261153a78fba1157b4eb41f4c5edec611e230763b7d08453a66"
+    },
+    {
+      "path": "neko-lab/integration.py",
+      "bytes": 6630,
+      "sha256": "1dab2286d2b6d84d4d325bc3d60751c7238c01eaa998b4f35281236948ca5225"
+    },
+    {
+      "path": "neko-lab/lab.py",
+      "bytes": 14219,
+      "sha256": "43fd7dda5faf623790d0e072e349976a7cd1866520ba63b52e23010c35238b77"
+    },
+    {
+      "path": "neko-lab/PINNED-UPSTREAM.txt",
+      "bytes": 42,
+      "sha256": "afda9b1da7e1cd0be0b29f73c41fea43bb08c7aa1d34be473d28a4a314c0bb00"
+    },
+    {
+      "path": "neko-lab/s1.py",
+      "bytes": 10464,
+      "sha256": "8b2e6faf91937a81e3a2da842aef3690067650585d329327b5aa30969c4d41ef"
+    },
+    {
+      "path": "neko-lab/test_gateway.py",
+      "bytes": 7816,
+      "sha256": "57baf5aa2d4595abeaf7afcbf57acbe61a911f01e072800929e03f5b4770a57b"
+    },
+    {
+      "path": "neko-lab/test_integration.py",
+      "bytes": 5419,
+      "sha256": "cda410cead214c7ed761d7cb2b7bd8c3a90cf7f74ace8465211ec3a183087804"
+    },
+    {
+      "path": "neko-lab/test_native_bounds.py",
+      "bytes": 3513,
+      "sha256": "bd2c2bfcbed8d58817b7756ffc81260f63c7b19270ae0f7e6468cbef1896f03f"
+    },
+    {
+      "path": "OPEN_SOURCE_READINESS.md",
+      "bytes": 1460,
+      "sha256": "e96eaac22aaec8be2f5d312a3f492c0a6357daa293bfc0adffb8c5a29dca2804"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 942,
+      "sha256": "44015e490740e095589b8671afe218ba99c1e7a6b945ec10744b0284ff49f9f6"
+    },
+    {
+      "path": "PUBLIC-REVIEW.md",
+      "bytes": 2675,
+      "sha256": "0e29251951308bc73a0401dd3c7ac6df04c10f54da41c57d681fe8f0df10e1d0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4755,
+      "sha256": "8bcba5e392bd4dc0bcc432db4927dad27f814115db4c62859feda600960c826f"
+    },
+    {
+      "path": "scripts/setup-neko-upstream.ps1",
+      "bytes": 495,
+      "sha256": "cc927c298a1d3d37c6838ef4ebd753d0e2e0e4d2b144cf0e06e0a1a571d87dfd"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 804,
+      "sha256": "918088a8de20eef015ddfef604510a9ab0ed274c0d54547a8b48557bc26d8831"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1087,
+      "sha256": "836ac539ef4258ced4be37404721827b154d73c847e2ea1b94a13a59ae39f284"
+    }
+  ]
+}

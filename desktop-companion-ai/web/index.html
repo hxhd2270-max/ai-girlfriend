@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>桌面角色 · 文字交流</title><link rel="stylesheet" href="/web/style.css"></head>
+<body><main><header><p class="eyebrow">DESKTOP COMPANION</p><h1>今天想聊什么？</h1><p>正在确认连接模式…</p></header>
+<section class="toolbar"><span id="status" role="status">正在连接…</span><a href="/admin" target="_blank" rel="noopener">人物与声音设置</a><a href="/wallpaper-preview" target="_blank" rel="noopener">打开字幕预览</a><button id="clear" type="button">清除本地历史</button></section>
+<div id="clear-confirm" hidden>清除这段交流的全部本地记录？<button id="clear-yes" type="button">确认清除</button><button id="clear-no" type="button">保留记录</button></div>
+<p id="usage" class="hint" role="status">正在读取今日用量…</p>
+<section id="history" aria-label="交流记录"></section>
+<p id="error" role="alert"></p><p id="subtitle" aria-live="polite"></p>
+<details><summary>壁纸聊天连接</summary><p>将当前交流连接到 PURPLE-Enhanced。壁纸内可直接输入文字和播放回复，与网页共用交流记录；发送新消息时切换播放位置。配对有效期 30 天，重启服务后自动恢复。</p><button id="install-wallpaper" type="button">连接增强壁纸</button> <button id="unpair-wallpaper" type="button">撤销连接</button><p id="pair-status" class="hint"></p><p id="pair-result" role="status"></p><details><summary>手动连接其他副本</summary><p class="hint">手动文件仅连接字幕，不提供壁纸聊天。生成新配对会撤销本会话的旧配对。下载后替换目标增强副本中的 ai-pair.local.js，再重载该壁纸。</p><button id="pair-wallpaper" type="button">下载配对文件</button></details></details>
+<p id="voice-status" class="hint" role="status">点击语音对话后开启本机麦克风；停顿自动发送，播完继续听。</p><form id="composer"><label for="message">输入中文</label><textarea id="message" maxlength="2000" rows="3" placeholder="慢慢说，我在听。"></textarea><div class="actions"><button id="voice" type="button" disabled aria-pressed="false">语音对话</button><button id="stop" type="button">停止</button><button id="send" type="submit" disabled>发送</button></div><p class="hint">Enter 发送 · Shift + Enter 换行 · 输入法选词时不会发送。可随时停止；发送新消息会中断上一轮。</p></form>
+<details><summary>试听与测试</summary><p><a href="/audition">打开女声试听</a> · 播放本地已有样本</p><label><input id="fault" type="checkbox">本轮模拟语音故障（文字仍会调用当前模型）</label></details>
+<audio id="player" preload="auto"></audio><footer>聊天仅保存在此电脑。刷新保留文字，不自动重播。当前声音偏好：温柔、自然。</footer></main><script type="module" src="/web/app.js"></script><script type="module" src="/web/pair.js"></script></body></html>
+
